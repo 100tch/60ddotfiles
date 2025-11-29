@@ -3,8 +3,6 @@ syntax enable
 call plug#begin()
 " fzf.vim github: https://github.com/junegunn/fzf.vim
 Plug 'junegunn/fzf.vim'
-" vimwiki github: https://github.com/vimwiki/vimwiki 
-Plug 'vimwiki/vimwiki'
 " vim-java-unused-imports github: https://github.com/akhaku/vim-java-unused-imports 
 Plug 'akhaku/vim-java-unused-imports'
 call plug#end()
@@ -28,5 +26,3 @@ set encoding=utf8
 set hlsearch
 set incsearch
 set title
-
-let g:vimwiki_list = [{"path": $VIMWIKI_DIR}]
